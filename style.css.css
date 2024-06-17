@@ -1,0 +1,346 @@
+/* nav,ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+        /* display:flex;
+    position: sticky;
+    top: 3px; 
+ nav,ul li,a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+*/
+body {
+    background-color: rgb(86, 247, 226);
+    padding: 0%;
+    margin: auto;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 50px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+#h {
+    font-size: 30px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(198, 147, 59, 0.865);
+    padding: 40px;
+    font-style: italic;
+    border-radius: 0px;
+}
+
+.navbar {
+    background-color: rgb(12, 105, 235);
+    margin: auto;
+    padding: 0%;
+}
+
+nav, ul li {
+    padding-right: 50px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+#text {
+    font-size: 22px;
+}
+
+section {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.hero-section {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* width: 100%;
+    height: 100vh; */
+    display: grid;
+    place-items:center;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size:100% auto; 
+    background-attachment: fixed;  
+    
+}
+
+section, h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    /* box-shadow: 5px 5px 5px blue; */
+    background-color: none;
+
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+.card-text{
+    color: white;
+}
+.card-title{
+    color: white;
+}
+p{
+    color: white;
+}
+
+#imag1 {
+    border: 2px solid red;
+    margin-right: 0px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #imag2{
+    margin-left: 26px;
+    margin-top: 5px;
+    border: 2px solid red;
+} */
+/* #card{
+    box-shadow: 5px 5px 5px rgb(0, 255, 21);
+    background-color: rgb(124, 240, 240);
+    border: 2px solid black;
+    margin-top:10px;
+} */
+.define {
+    margin-top: 15px
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    /* background-color: blue; */
+}
+
+h1 {
+    margin-left: 8px;
+}
+
+article {
+    margin-top: 10px;
+}
+
+.form {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+
+#mname {
+    margin-top: 32px;
+}
+
+#lname {
+    margin-top: 32px;
+}
+
+#hero-section {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.hero-heading {
+    margin-top: 30px;
+}
+
+.main-content {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size:100% auto;   
+
+}
+#Registration{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-attachment: fixed;  
+}
+#our-courses{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-attachment: fixed;  
+}
+
+#h-form {
+    margin-top: 10px;
+}
+
+.employee {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(114, 235, 114);
+    border-radius: 10px;
+}
+
+.employeetable {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    /* color: rgb(0, 255, 34); */
+    margin-top: 10px;
+}
+
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    /* border-radius: 8px; */
+    color: rgb(0, 255, 30);
+    font-size: 25px;
+}
+
+.Course {
+    padding: 10px;
+    background-color: rgb(244, 192, 129);
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #b4f252;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #aff5b3;
+}
+
+#contact {
+    margin-top: 10px;
+    background-color: rgb(118, 118, 244);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size:100% auto; 
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+.context {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(245, 164, 229);
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* <section>
+   <div class="row">
+        <div class="col">
+          <h1 class="card-title">Here you can learn how to build a website.</h1>
+          <p class="card-text" id="text">If you will visiting here,so you can improve your skills and experience.And
+            here you will learn diffrent types of language.if we are build a website.So we need some language ,so here
+            you can learn this language
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla quae unde asperiores. Quisquam esse
+            laboriosam repudiandae quos voluptatem illum culpa temporibus praesentium ea modi maiores molestias, atque
+            sit nostrum ipsum?
+          </p>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+
+
+ <h2>IF YOU WANT TO BECOME A FULL STACK DEVLOUPER SO,YOU WILL BE LEARN FRONTEND DEVLOUPER AND BACKEND DEVLOUPER.
+      </h2>
+      <div class="main-content">
+        <p>
+          A full-stack developer is a developer or engineer who can build both the front end and the back end of a
+          website. The front end (the parts of a website a user sees and interacts with) and the back end (the
+          behind-the-scenes data storage and processing) require different skill sets
+        </p>
+      </div>
+ */
